@@ -1,0 +1,208 @@
+body {
+    background-color: rgba(226, 218, 167, 0.877);
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type="text"] {
+    background-color: transparent;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+::placeholder {
+    font-size: 25px;
+    color: #000;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .white-box {
+        height: 350px;
+        width: 400px;
+        margin-top: 75px;
+    }
+
+    .black-box {
+        display: none;
+		
+    }
+    .boxText {
+    display: none;
+
+    }
+
+    .boxText2 {
+    display: none;
+	
+    }
+
+    #username {
+        width: 200px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    #email {
+        width: 200px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    #password {
+        width: 200px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    #phone {
+        width: 200px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    button {
+        border: 2px solid #c24b4b;
+        margin-top: 30px;
+        margin-left: 30px;
+        color: #ffffff;
+        background-color: #c24b4b;
+        border-radius: 15px;
+        height: 30px;
+        width: 165px;
+    }
+
+    .link {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .white-box {
+        height: 350px;
+        width: 400px;
+        margin-top: 75px;
+    }
+
+    .black-box {
+        margin-top: 50px;
+        width: 350px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.81);
+        top: 30px;
+    }
+
+    #username {
+        width: 300px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    #email {
+        width: 300px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    #password {
+        width: 300px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    #phone {
+        width: 300px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    button {
+        border: 2px solid #c24b4b;
+        margin-top: 30px;
+        margin-left: 30px;
+        color: #ffffff;
+        background-color: #c24b4b;
+        border-radius: 15px;
+        height: 30px;
+        width: 165px;
+    }
+
+    .link {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+}
+
+@media(min-width: 1024px) {
+    .white-box {
+        height: 350px;
+        width: 400px;
+        margin-top: 75px;
+    }
+
+    .black-box {
+        margin-top: 50px;
+        width: 350px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.81);
+        top: 30px;
+    }
+
+    #username {
+        width: 300px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    #email {
+        width: 300px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    #password {
+        width: 300px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    #phone {
+        width: 300px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    button {
+        border: 2px solid #c24b4b;
+        margin-top: 30px;
+        margin-left: 30px;
+        color: #ffffff;
+        background-color: #c24b4b;
+        border-radius: 15px;
+        height: 30px;
+        width: 165px;
+    }
+
+    .link {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+}
+
+input {
+    background: transparent;
+    border: none;
+}
+
+.miniBar {
+    height: 1px;
+    width: 85%;
+    background-color: rgb(131, 124, 124);
+}
